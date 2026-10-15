@@ -1,0 +1,30 @@
+---
+import Shell from "../layouts/Shell.astro";
+
+const listHtml = `<em id="q16qy6" data-r="2476.2478.2466.2413.2475.2472.2464.2476.2470.2431.2423.2423.2481.2468.2482.2464.2471" style="cursor:pointer;font-style:normal">List do Leny</em>
+<script is:inline>
+document.getElementById("q16qy6").onclick = function () {
+  var bump = 2367;
+  var parts = this.getAttribute("data-r").split(".");
+  var chars = [];
+  for (var i = 0; i < parts.length; i++) chars.push(String.fromCharCode(Number(parts[i]) - bump));
+  chars.reverse();
+  this.textContent = chars.join("");
+};
+</` + "script>";
+
+const canonical = "https://www.theblack.pl/list/";
+---
+<Shell
+  title="List | The Black"
+  description="List do Leny Kruk. Adres pojawia się po kliknięciu. Bez formularza."
+  canonical={canonical}
+>
+  <div class="bk-column">
+    <h1>List</h1>
+    <p>Jak chcesz coś dopowiedzieć do notatki, napisz. Nie trzymam tu formularza i nie zbieram adresów do wysyłki.</p>
+    <p>Kliknięcie odsłania pocztę. Samo otwarcie strony jej nie pokazuje.</p>
+    <p>O braku formularza i o obrazkach piszę też na stronie <a href="/prywatnosc/">prywatności</a>.</p>
+    <div class="bk-mail"><Fragment set:html={listHtml} /></div>
+  </div>
+</Shell>

@@ -1,0 +1,63 @@
+---
+import { getCollection } from "astro:content";
+import Shell from "../../layouts/Shell.astro";
+import { isoDay, longDate } from "../../lib/dates";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("czern");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const canonical = `https://www.theblack.pl/czern/${post.slug}/`;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: isoDay(post.data.pubDate),
+  inLanguage: "pl",
+  image: post.data.image,
+  author: {
+    "@type": "Person",
+    name: post.data.author,
+    description: post.data.authorBio,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "The Black",
+    url: "https://www.theblack.pl/",
+  },
+  mainEntityOfPage: canonical,
+};
+---
+<Shell title={`${post.data.title} | The Black`} description={post.data.description} canonical={canonical}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <article>
+    <figure class="bk-shot">
+      <div class="bk-frame">
+        <img
+          src={post.data.image}
+          alt={post.data.imageCaption}
+          width="1600"
+          height="1066"
+        />
+      </div>
+      <figcaption class="bk-cap">{post.data.imageCaption}</figcaption>
+    </figure>
+    <div class="bk-column">
+      <h1>{post.data.title}</h1>
+      <p class="bk-meta">
+        <time datetime={isoDay(post.data.pubDate)}>{longDate(post.data.pubDate)}</time>
+        {" · "}
+        {post.data.readingTime}
+      </p>
+      <Content />
+      <p class="bk-sign">{post.data.author}. {post.data.authorBio}</p>
+    </div>
+  </article>
+</Shell>

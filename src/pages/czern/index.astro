@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import Shell from "../../layouts/Shell.astro";
+import { isoDay, shortDate } from "../../lib/dates";
+
+const posts = (await getCollection("czern")).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime(),
+);
+const canonical = "https://www.theblack.pl/czern/";
+---
+<Shell
+  title="Czernie | The Black"
+  description="Spis notatek Leny Kruk o czerni jako materiale: ubranie, kadr, ściana, atrament, kawa."
+  canonical={canonical}
+>
+  <div class="bk-column">
+    <h1>Czernie</h1>
+    <p>Wszystkie notatki, od najnowszej. Jedna linia, data i tytuł.</p>
+    <ul class="bk-index">
+      {posts.map((post) => (
+        <li>
+          <a class="bk-row" href={`/czern/${post.slug}/`}>
+            <time datetime={isoDay(post.data.pubDate)}>{shortDate(post.data.pubDate)}</time>
+            <span>{post.data.title}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Shell>

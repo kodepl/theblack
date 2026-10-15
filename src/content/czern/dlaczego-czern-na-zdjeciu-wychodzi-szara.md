@@ -1,0 +1,26 @@
+---
+title: "Dlaczego czerń na zdjęciu wychodzi szara"
+description: "Czerń na zdjęciu siwieje, bo światłomierz chce środka, a ja daję mu ścianę. Cofam korek i ściana wraca."
+pubDate: "2026-10-13"
+author: "Lena Kruk"
+authorBio: "Fotografka. Pisze o czerni w ubraniu, w kadrze i w pokoju."
+category: "Kadr"
+tags:
+  - "szarość"
+  - "ekspozycja"
+readingTime: "5 min"
+image: "https://images.unsplash.com/photo-1470071459604?auto=format&fit=crop&w=1600&q=80"
+imageCaption: "Motyw z Unsplash. To nie mój kadr z pola."
+---
+
+Ściana, płaszcz, kubek, zasłona: w pokoju są czarne, a na odwrocie aparatu często szare. Dziś biorę samą ścianę, bez okna w kadrze, żeby zobaczyć kłamstwo na spokojnie. Światło z boku jest takie jak ostatnio, rysa przy kontakcie też. Naciskam spust bez poprawki. Ekran pokazuje grafit. Oko, kiedy odrywam je od wizjera, nadal widzi czerń. To nie jest wada farby. To miernik, który dostał polecenie, żeby świat był średni, i wykonuje je także wtedy, gdy świat jest ciemny. Stoję tak, żeby ramię nie weszło w kadr, bo jasny rękaw koszuli zadziałałby jak kartka i ściana by utonęła, zanim w ogóle zobaczę wykres na ekranie. Koszula jest czarna. I tak odsuwam łokieć. Łokieć czarnej koszuli i tak odsuwam, bo przy samym brzegu kadru potrafi złapać refleks i ściana od razu spada w zbyt głęboką czerń.
+
+Średni znaczy tu tyle: jeśli wypełnię kadr samą czarną ścianą, aparat uzna, że to niedoświetlone coś, co trzeba podnieść do popielu. Nie pyta, czy chcę popiół. Pyta tylko, czy w kadrze jest dość światła do jego średniej. Nie ma. Więc dodaje. Dodaje i rysa znika, bo razem z czernią podnosi się też to, co było ledwo jaśniejsze, i wszystko zrównywa się w jedną mgłę. Znam to z tramwaju, z kubka, z nocy bez błysku. Dziś nazywam to wprost, bo mam czas stać przy ścianie i kręcić kółkiem. Popiół na ekranie jest równy i przez to nudny. Rysa wraca dopiero, kiedy pozwalam rogowi przy framudze zostać prawie bez szczegółu. Coś musi być cięższe, żeby środek miał fakturę, nie mgłę. Róg przy framudze zostawiam cięższy świadomie. Bez tego ciężaru środek znowu chce być popiołem, równym i pustym.
+
+Cofam ekspozycję, aż ekran znowu jest bliższy oku. Nie do zera informacji. Do miejsca, w którym rysa wraca, a róg przy framudze zostaje ciemniejszy niż środek. To różnica, nie dziura. Dziura jest wtedy, gdy przesadzę i ściana staje się plakatem bez faktury. Kręcę z powrotem o włos. Trzecia klatka trzyma i rysę, i ciężar. Zostawiam ją. Nie zapisuję recepty w liczbach do szuflady, bo jutro chmura będzie inna i recepta skłamie. Zostawiam nawyk: jeśli czerń siwieje, najpierw pytam miernik, nie farbę. Kółko ekspozycji jest małe i przy zimnych palcach łatwo przeskoczyć o dwa kliki. Cofam się powoli. Między plakatem a popiołem jest wąskie miejsce. Trafiam w nie za trzecim razem i nie kręcę dalej dla sportu. Trzecie trafienie w wąskie miejsce zapisuję tylko w głowie: o włos ciemniej niż pierwszy ekran. Jutro chmura i tak każe zacząć od oka.
+
+Dla sprawdzenia wkładam w kadr kawałek jasnej kartki, róg notesu. Od razu ściana na ekranie spada w czerń, czasem za głęboko, bo miernik zobaczył kartkę i uznał, że reszta może utonąć. Wymaga to tej samej uwagi, tylko w drugą stronę. Kartkę wyjmuję. Nie chcę oszukiwać miernika białym paskiem na stałe. Chcę rozumieć, czemu wczorajszy płaszcz przy oknie tramwaju wyszedł jak mokry popiół. Bo okno było kartką. Płaszcz dostał za swoje. Notes, którego róg włożyłam na próbę, ma atrament przy marginesie. Atrament jest ciemniejszy od kartki i miernik i tak widzi głównie papier. Wyjmuję notes, zanim pokusa zostanie w kadrze na stałe jak oszustwo. Margines notesu ma też suchy ślad kawy. Dwa ślady, papier i atrament, i miernik i tak wybiera papier. Dlatego notes wraca na stos, poza kadr.
+
+Kubek rano działa podobnie. Sam na ciemnym blacie siwieje. Obok ścierki, która jest jaśniejsza, potrafi zgasnąć za mocno. Dlatego zostawiam sąsiada w kadrze i patrzę, kto komu zabiera światło. To nie jest trik do powtarzania z pamięci przy każdym guziku. To jest powód, dla którego nie wierzę pierwszemu ekranowi, dopóki nie porównam go z przedmiotem, który nadal stoi przede mną. Przedmiot ma pierwszeństwo. Ekran jest plotką. Ścierka przy kubku jest szara naprawdę, nie z winy miernika. Dlatego odróżniam ją od ściany, która szarzeje tylko na ekranie. Przedmiot na blacie sprawdzam palcem i okiem, zanim uwierzę podglądowi. Palec na glazurze kubka mówi, że rant jest twardy i czarny, nawet kiedy podgląd pokazuje szarość. Wierzę palcowi szybciej niż ekranowi.
+
+Gaszę podgląd i patrzę na ścianę gołym okiem jeszcze chwilę. Jest czarna. Rysa jest. Pył w smudze siada, kiedy sąsiad zamyka drzwi na dole. Żadne zdjęcie tego nie zastąpi, ale zdjęcie może przestać przeszkadzać, jeśli nie każę mu być średnim za wszelką cenę. Chowam aparat na książki. Jutro, przy kawie, sprawdzę kubek tym samym nawykiem. Jeśli rant wyjdzie szary, cofnę korek, zanim uwierzę, że glazura zbladła przez noc. Książki pod aparatem są te same co przy ścianie w zeszłym tygodniu. Nie zmieniam stosu. Zmieniam tylko nawyk przy spuście: najpierw porównanie z okiem, potem klatka, a na końcu, jeśli trzeba, kawa. Kawa po tej próbie smakuje zwyczajnie. To dobry koniec. Ściana została czarna w pokoju, a szara tylko tam, gdzie miernik dostał za dużo zaufania.

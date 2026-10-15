@@ -1,0 +1,37 @@
+---
+import { getCollection } from "astro:content";
+import Shell from "../layouts/Shell.astro";
+import { isoDay, longDate, shortDate } from "../lib/dates";
+
+const posts = (await getCollection("czern")).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime(),
+);
+const lead = posts[0];
+if (!lead) throw new Error("Brak notatek");
+const rest = posts.slice(1);
+const canonical = "https://www.theblack.pl/";
+---
+<Shell
+  title="The Black"
+  description="Notatki Leny Kruk o czerni w ubraniu, w kadrze i w pokoju."
+  canonical={canonical}
+>
+  <div class="bk-home">
+    <article class="bk-lead">
+      <time class="bk-when" datetime={isoDay(lead.data.pubDate)}>{longDate(lead.data.pubDate)}</time>
+      <h1>{lead.data.title}</h1>
+      <p class="bk-dek">{lead.data.description}</p>
+      <a class="bk-more" href={`/czern/${lead.slug}/`}>Czytaj</a>
+    </article>
+    <ul class="bk-index">
+      {rest.map((post) => (
+        <li>
+          <a class="bk-row" href={`/czern/${post.slug}/`}>
+            <time datetime={isoDay(post.data.pubDate)}>{shortDate(post.data.pubDate)}</time>
+            <span>{post.data.title}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Shell>

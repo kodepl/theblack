@@ -1,0 +1,50 @@
+---
+import "../styles/black.css";
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+}
+
+const { title, description, canonical } = Astro.props;
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pl_PL" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Outfit:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="bk-skip" href="#bk-tresc">Przejdź do treści</a>
+    <div class="bk-shell">
+      <header class="bk-rail">
+        <a class="bk-mark" href="/">The Black</a>
+        <nav class="bk-nav" aria-label="Działy">
+          <a href="/czern/" aria-current={path.startsWith("/czern") ? "page" : undefined}>Czernie</a>
+          <a href="/pismo/" aria-current={path.startsWith("/pismo") ? "page" : undefined}>Pismo</a>
+          <a href="/list/" aria-current={path.startsWith("/list") ? "page" : undefined}>List</a>
+        </nav>
+      </header>
+      <div class="bk-stage" id="bk-tresc">
+        <slot />
+        <footer class="bk-foot">
+          <p>The Black. Lena Kruk. <a href="/list/">List</a></p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

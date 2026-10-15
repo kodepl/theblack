@@ -1,0 +1,385 @@
+:root {
+  --bk-paper: #12110f;
+  --bk-ink: #efe6d6;
+  --bk-brass: #b08968;
+  --bk-rail: #000000;
+  --bk-display: "Bodoni Moda", serif;
+  --bk-text: "Outfit", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: clip;
+  margin: 0;
+  background: var(--bk-paper);
+  color: var(--bk-ink);
+}
+
+body {
+  font-family: var(--bk-text);
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.65;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--bk-display);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+}
+
+h1 {
+  overflow-wrap: anywhere;
+}
+
+h1 em,
+h1 i,
+h2 em,
+h2 i,
+h3 em,
+h3 i {
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+.bk-nav a {
+  white-space: nowrap;
+}
+
+button {
+  font: inherit;
+  color: var(--bk-brass);
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--bk-brass);
+  outline-offset: 3px;
+}
+
+.bk-skip {
+  position: absolute;
+  left: 0.6rem;
+  top: -4rem;
+  background: var(--bk-rail);
+  color: var(--bk-ink);
+  padding: 0.35rem 0.6rem;
+  z-index: 3;
+}
+
+.bk-skip:focus {
+  top: 0.6rem;
+}
+
+.bk-shell {
+  display: grid;
+  grid-template-columns: 16.75rem minmax(0, 1fr);
+  min-height: 100vh;
+  align-items: stretch;
+}
+
+.bk-rail {
+  background: var(--bk-rail);
+  color: var(--bk-ink);
+  min-height: 100vh;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem 1rem 1.1rem;
+}
+
+.bk-mark {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  align-self: flex-start;
+  font-family: var(--bk-display);
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(1.7rem, 5.2vh, 3.15rem);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1;
+  color: var(--bk-ink);
+}
+
+.bk-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.85rem;
+  align-items: baseline;
+}
+
+.bk-nav a {
+  display: inline;
+  color: var(--bk-brass);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.bk-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.28em;
+}
+
+.bk-stage {
+  min-width: 0;
+  background: var(--bk-paper);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bk-home {
+  padding: 9vh 6vw 1rem;
+  flex: 1;
+}
+
+.bk-lead {
+  max-width: 40rem;
+}
+
+.bk-when {
+  display: block;
+  color: var(--bk-brass);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.bk-lead h1 {
+  margin: 0.7rem 0 1rem;
+  font-size: clamp(2.5rem, 5.6vw, 4.6rem);
+  font-style: normal;
+}
+
+.bk-dek {
+  margin: 0;
+  max-width: 36rem;
+  font-size: 1.12rem;
+}
+
+.bk-more {
+  display: inline-block;
+  margin-top: 1.35rem;
+  color: var(--bk-brass);
+  text-decoration: none;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  border-bottom: 1px solid var(--bk-brass);
+}
+
+.bk-index {
+  list-style: none;
+  margin: 3.4rem 0 0;
+  padding: 0;
+  max-width: 34rem;
+}
+
+.bk-index li {
+  border-top: 1px solid rgba(239, 230, 214, 0.22);
+}
+
+.bk-index li:last-child {
+  border-bottom: 1px solid rgba(239, 230, 214, 0.22);
+}
+
+.bk-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 1rem;
+  min-width: 0;
+  padding: 0.58rem 0;
+  text-decoration: none;
+  color: var(--bk-ink);
+}
+
+.bk-row time {
+  flex: 0 0 6.1rem;
+  color: var(--bk-brass);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+}
+
+.bk-row span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bk-row:hover span {
+  color: var(--bk-brass);
+}
+
+.bk-shot {
+  margin: 0;
+}
+
+.bk-frame {
+  height: 70vh;
+  overflow: hidden;
+  background: var(--bk-rail);
+}
+
+.bk-frame img {
+  width: 100%;
+  max-width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.bk-cap {
+  max-width: 38rem;
+  margin: 0.55rem 0 0;
+  padding: 0 6vw;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  color: var(--bk-brass);
+}
+
+.bk-column {
+  max-width: 38rem;
+  padding: 1.35rem 6vw 2rem;
+}
+
+.bk-column h1 {
+  margin: 0.2rem 0 0.85rem;
+  font-size: clamp(2.15rem, 4.5vw, 3.5rem);
+  font-style: normal;
+}
+
+.bk-meta {
+  margin: 0 0 1.4rem;
+  color: var(--bk-brass);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.bk-column p {
+  margin: 0 0 1.15rem;
+}
+
+.bk-sign {
+  margin-top: 1.6rem;
+  font-size: 0.92rem;
+  color: var(--bk-brass);
+}
+
+.bk-mail {
+  margin: 1.2rem 0 0;
+  font-size: 1.05rem;
+}
+
+.bk-mail em {
+  font-style: normal;
+  color: var(--bk-brass);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.bk-foot {
+  margin-top: auto;
+  padding: 0.4rem 6vw 1.6rem;
+}
+
+.bk-foot p {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+}
+
+.bk-foot a {
+  color: var(--bk-brass);
+}
+
+@keyframes bk-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bk-lead {
+  animation: bk-fade 0.7s ease both;
+}
+
+@media (max-width: 760px) {
+  .bk-shell {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bk-rail {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: auto;
+    min-height: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.45rem;
+    padding: 0.7rem 1rem 0.75rem;
+  }
+
+  .bk-mark {
+    writing-mode: horizontal-tb;
+    transform: none;
+    font-size: 1.05rem;
+    letter-spacing: 0.16em;
+  }
+
+  .bk-home,
+  .bk-column,
+  .bk-cap,
+  .bk-foot {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .bk-lead h1 {
+    font-size: 2.35rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bk-lead {
+    animation: none;
+  }
+}
