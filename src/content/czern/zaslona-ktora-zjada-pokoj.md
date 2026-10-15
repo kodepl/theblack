@@ -9,7 +9,7 @@ tags:
   - "zasłona"
   - "pokój"
 readingTime: "5 min"
-image: "https://images.unsplash.com/photo-1502672260266?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80"
 imageCaption: "Motyw z Unsplash. To nie moja zasłona."
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "ściana"
   - "światło"
 readingTime: "5 min"
-image: "https://images.unsplash.com/photo-1515886657613?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1600&q=80"
 imageCaption: "Motyw z Unsplash. To nie moja ściana."
 ---
 

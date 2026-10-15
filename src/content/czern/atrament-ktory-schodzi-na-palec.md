@@ -9,7 +9,7 @@ tags:
   - "atrament"
   - "palec"
 readingTime: "5 min"
-image: "https://images.unsplash.com/photo-1455390582262?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1600&q=80"
 imageCaption: "Motyw z Unsplash. To nie mój atrament."
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "kawa"
   - "ranek"
 readingTime: "5 min"
-image: "https://images.unsplash.com/photo-1509042239860?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1600&q=80"
 imageCaption: "Motyw z Unsplash. To nie mój kubek."
 ---
 

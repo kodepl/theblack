@@ -9,7 +9,7 @@ tags:
   - "buty"
   - "deszcz"
 readingTime: "5 min"
-image: "https://images.unsplash.com/photo-1445205170230?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1600&q=80"
 imageCaption: "Motyw z Unsplash. To nie moje buty."
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "koszula"
   - "pranie"
 readingTime: "5 min"
-image: "https://images.unsplash.com/photo-1460317442991?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1600&q=80"
 imageCaption: "Motyw z Unsplash. To nie moja koszula."
 ---
 

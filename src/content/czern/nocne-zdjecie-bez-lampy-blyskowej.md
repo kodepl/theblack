@@ -9,7 +9,7 @@ tags:
   - "noc"
   - "lampa"
 readingTime: "5 min"
-image: "https://images.unsplash.com/photo-1514565131?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1600&q=80"
 imageCaption: "Motyw z Unsplash. To nie moja nocna ulica."
 ---
 
