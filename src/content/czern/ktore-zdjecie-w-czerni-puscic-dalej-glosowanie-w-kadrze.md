@@ -9,7 +9,6 @@ category: "Kadr"
 tags: ["ankieta", "głosowanie", "decyzja"]
 readingTime: "5 min"
 image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1400&h=900&q=80"
-imageCaption: "Ciemny kadr, motyw z Unsplash."
 ---
 
 ## Które zdjęcie w czerni puścić dalej?
