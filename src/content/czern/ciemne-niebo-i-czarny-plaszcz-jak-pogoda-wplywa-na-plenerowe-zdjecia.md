@@ -9,7 +9,6 @@ category: "Kadr"
 tags: ["pogoda", "aplikacja", "rano"]
 readingTime: "6 min"
 image: "https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=1400&h=900&q=80"
-imageCaption: "Ciemne niebo, motyw z Unsplash."
 ---
 
 ## Ciemne niebo, czarny płaszcz
